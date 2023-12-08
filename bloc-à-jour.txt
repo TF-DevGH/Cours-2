@@ -1,0 +1,273 @@
+**Introduction :**
+
+1. **Présentation du Sujet :**
+   - Définir le contexte global du sujet.
+   - Identifier l'importance ou la pertinence du sujet.
+
+2. **Exemple mystère :**
+   - Questions : Pourquoi ? Réponse.
+   - Mettre en avant l'objectif de l'analyse à venir.
+   - Donner le matériel à installer :
+   https://cmder.app/ | https://nodejs.org/en/download/current |sass/SCSS installer : https://chat.openai.com/c/ea611277-8098-465e-affe-c076bc107e30 |
+
+
+3. **Enjeux :**
+   - Souligner les implications et conséquences du sujet (expliquer que le header / body / footer)
+   - Expliquer pourquoi le sujet est d'actualité ou crucial.
+   - Exemple : Projet (?) : 
+
+4. **Transition vers le Développement :**
+   - Annoncer brièvement les grandes lignes de la discussion à venir.
+   - Préparer le lecteur à entrer dans les détails du sujet.
+
+**Développement :**
+
+*Partie 1 : [Titre de la Première Sous-Partie]*
+
+1. **Introduction à la Sous-Partie :**
+   - Connecter cette partie à la problématique générale.
+   - Présenter l'angle spécifique abordé.
+
+2. **Aspect 1 :**
+   - Examiner le premier aspect ou élément lié à la sous-partie.
+   - Fournir des détails, exemples, ou données pertinents.
+
+3. **Aspect 2 :**
+   - Explorer un autre aspect essentiel.
+   - Établir des liens avec l'aspect précédent pour assurer une transition fluide.
+
+4. **Conclusion de la Sous-Partie :**
+   - Résumer les points clés abordés.
+   - Proposer une transition vers la prochaine sous-partie.
+
+*Partie 2 : [Titre de la Deuxième Sous-Partie]*
+
+1. **Introduction à la Sous-Partie :**
+   - Relier cette partie à la problématique principale.
+   - Dévoiler l'angle spécifique traité ici.
+
+2. **Aspect 1 :**
+   - Approfondir le premier aspect spécifique à cette partie.
+   - Utiliser des exemples concrets ou des citations si nécessaire.
+
+3. **Aspect 2 :**
+   - Examiner un autre aspect significatif.
+   - Établir des relations avec l'aspect précédent pour une cohérence.
+
+4. **Conclusion de la Sous-Partie :**
+   - Synthétiser les points clés.
+   - Introduire subtilement la sous-partie suivante.
+
+*Continuez ce schéma pour les sous-parties suivantes.*
+
+**Conclusion :**
+
+1. **Récapitulation des Points Clés :**
+   - Revenir sur les éléments essentiels discutés dans les sous-parties.
+   - Mettre en lumière la réponse à la problématique initiale.
+
+2. **Perspectives et Ouvertures :**
+   - Suggérer des pistes pour de futures recherches ou actions.
+   - Élargir la réflexion pour encourager une pensée critique.
+
+3. **Clôture :**
+   - Terminer sur une note percutante.
+   - Lier la conclusion à l'introduction pour une boucle narrative.
+
+Ainsi, votre texte sera organisé de manière logique, facilitant la compréhension et la rétention d'informations pour le lecteur.
+
+
+
+
+
+
+blblblblbll((((((((((((((((((((((((((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pokéball Chooser</title>
+</head>
+
+<body>
+  <header>
+  </header>
+  <div class="container">
+    <h1>C'est bien moi ça./h1>
+    <h2>C'est ma pokéball celle-ci !</h2>
+    <a>Tu dois te demander comment j'ai su que tu ne choisirais pas cette pokéball ?<br>Peut-être un coup de chance...</a>
+  </div>
+
+</body>
+
+</html>
+blblblblbll((((((((((((((((((((((((((((((((((((((((((((((((((((((((()))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 18px;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    background: #FFECB3;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .15em;
+    margin-bottom: .5em;
+  }
+  
+  .container {
+    width: 80%;
+    display: block;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .pokeball {
+    display: inline-block;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background: #b71c1c;
+    border-radius: 50%;
+    box-shadow:  inset 0 -72px 0 -37px #fff, inset 0 -76px 0 -35px #000, 0 0 0 5px #000;
+    position: relative;
+    transition: .4s;
+    transform-origin: bottom center;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+  
+    &:before {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #fff;
+      top: 50px;
+      left: 40px;
+      border: 1px solid rgba(0,0,0,.4);
+      box-shadow: 2px 0 0 0 rgba(0,0,0,0.2), 0 0 0 5px #fff, 0 0 0 10px #000;
+    }
+    
+    &:after {
+      display: block;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height:100%;
+      border-radius: 50%;
+      box-shadow:  inset -7px 0 5px 0 rgba(0,0,0,.4);
+    }
+    
+    &:hover {
+      cursor: pointer;
+      animation: anti-wiggle 1s ease-in-out;
+    }
+    
+    &:hover:after {
+      animation: wiggle 1s ease-in-out;
+    }
+    
+    &:focus, &:active {
+      outline: 0;
+    }
+  }
+  
+  /* Header styles */
+  header {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .left-half {
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    animation: slideIn 1s forwards;
+    display: none;
+  }
+  
+  header.clicked .left-half {
+    display: block;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes wiggle {
+    20% {
+      box-shadow:  inset -5px 0 5px 0 rgba(0,0,0,.4);
+      transform: rotate(7deg);
+    }
+    
+    40% {
+      box-shadow:  inset -11px 0 5px 0 rgba(0,0,0,.4);
+      transform: rotate(-14deg);
+    }
+    
+    60% {
+      box-shadow:  inset -5px 0 5px 0 rgba(0,0,0,.4);
+      transform: rotate(4deg);
+    }
+    
+    80% {
+      box-shadow:  inset -8px 0 5px 0 rgba(0,0,0,.4);
+      transform: rotate(-2deg);
+    }
+    
+    100% {
+      box-shadow:  inset -7px 0 5px 0 rgba(0,0,0,.4);
+      transform: rotate(0deg);
+    }
+  }
+  
+  @keyframes anti-wiggle {
+    20% {
+      transform: translateX(4px) rotate(-7deg);
+    }
+    
+    40% {
+      transform: translateX(-8px)  rotate(14deg);
+    }
+    
+    60% {
+      transform: translateX(2px)  rotate(-4deg);
+    }
+    
+    80% {
+      transform: translateX(-1px)  rotate(2deg);
+    }
+    
+    100% {
+      transform: translateX(0px) rotate(0deg);
+    }
+  }
+  
